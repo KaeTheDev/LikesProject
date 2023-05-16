@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Social Network (Likes Challenge)</title>
+</head>
+
+<body class="app">
+    <div class="header">
+        <h1>Network</h1>
+    </div>
+
+    <p class="feed-title">Your Feed</p>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <img src="./resources/user-circle.png" alt="user-avatar" class="profile-picture">
+            <p class="add-avatar"><a href="#">Add An Avatar</a></p>
+            <p class="profile-username">James Doe</p>
+        </div>
+
+        <main>
+            <div class="card-one">
+                <div class="row">
+                    <div class="likeObject">
+                        <p class="username">Neil M</p>
+
+                        <p class="likes1">0 like(s)</p>
+                        <button onclick="increaseCount1()" class="likeBtn">Like</button>
+                    </div>
+                </div>
+
+                <p class="user-status">I just set up this new discord bot, let me know
+                    what you all think. <a href="#">link</a>
+                </p>
+            </div>
+
+            <div class="card-two">
+                <div class="row">
+                    <div class="likeObject">
+                        <p class="username">Nicole K</p>
+
+                        <p class="likes2">0 like(s)</p>
+                        <button onclick="increaseCount2()" class="likeBtn">Like</button>
+                    </div>
+                </div>
+
+                <p class="user-status">
+                    Just finished my <a href="#">next comic</a>. Check it out.
+                </p>
+            </div>
+
+            <div class="card-three">
+                <div class="row">
+                    <div class="likeObject">
+                        <p class="username">Jim R</p>
+
+                        <p class="likes3">0 like(s)</p>
+                        <button onclick="increaseCount3()" class="likeBtn">Like</button>
+                    </div>
+                </div>
+
+                <p class="user-status">
+                    I can't stop listening to the <a href="#">new album</a>. Who else is liking it?
+                </p>
+            </div>
+        </main>
+    </div>
+
+    <!--JAVASCRIPT-->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
